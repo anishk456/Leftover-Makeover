@@ -9,7 +9,7 @@ import unidecode, ast
 # Top-N recomendations order by score
 def get_recommendations(N, scores):
     # load in recipe dataset 
-    df_recipes = pd.read_csv('/Users/anish/Documents/ML/honestcooking_all_recipes_parsed.csv')
+    df_recipes = pd.read_csv(config.PARSED_PATH)
     # order the scores with and filter to get the highest N scores
     top = sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)[:N]
     # create dataframe to load in recommendations 
