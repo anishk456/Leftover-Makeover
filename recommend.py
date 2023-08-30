@@ -3,7 +3,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity  
 from clean_data import ingredient_parser
 import pickle
-
+import config
 import unidecode, ast
 
 # Top-N recomendations order by score
@@ -48,10 +48,10 @@ def RecSys(ingredients, N=5):
     """
 
     # load in tdidf model and encodings 
-    with open('/Users/anish/Documents/ML/tfidf_encode.pkl', 'rb') as f:
+    with open(config.TFIDF_ENCODING_PATH, 'rb') as f:
         tfidf_encodings = pickle.load(f)
 
-    with open('/Users/anish/Documents/ML/tfidf_model.pkl', "rb") as f:
+    with open(config.TFIDF_MODEL_PATH, "rb") as f:
         tfidf = pickle.load(f)
 
     # parse the ingredients using my ingredient_parser 
