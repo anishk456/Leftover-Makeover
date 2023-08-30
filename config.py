@@ -1,4 +1,5 @@
-RECIPES_PATH = "./input/df_recipes.csv"
-PARSED_PATH = '/Users/anish/Documents/ML/honestcooking_all_recipes_parsed.csv'
-TFIDF_ENCODING_PATH = "./input/tfidf_encodings.pkl"
-TFIDF_MODEL_PATH = '/Users/anish/Documents/ML/tfidf_model.pkl'
+RECIPES_0_PATH = "Files/honestcooking_all_recipes.csv"
+RECIPES_PATH = "Files/honestcooking_all_recipes_cleaned.csv"
+PARSED_PATH = "Files/honestcooking_all_recipes_parsed.csv"
+TFIDF_ENCODING_PATH = "Files/tfidf_encode.pkl"
+TFIDF_MODEL_PATH = "Files/tfidf_model.pkl"
