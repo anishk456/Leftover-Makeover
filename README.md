@@ -9,7 +9,7 @@ This project aims to provide users with personalized recipe suggestions based on
 
 <h2>Link to Application</h2>
 <b></b>
-[Link(https://leftover-makeover-6a09fd37d87b.herokuapp.com/)
+Link: https://leftover-makeover-6a09fd37d87b.herokuapp.com/
 
 
 
