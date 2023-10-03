@@ -3,11 +3,12 @@
  
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+This project aims to provide users with personalized recipe suggestions based on the ingredients they have on hand. Leveraging a powerful cosine similarity algorithm, this application ensures users get the best recipe recommendations. The application allows users to input the ingredients they have left over and provides personalized recommendations by suggesting the top 5 recipes from its extensive database that can be made using those ingredients.
 <br />
 
 
 <h2>Link to Application</h2>
+[Link to App](https://leftover-makeover-6a09fd37d87b.herokuapp.com/)
 
 <h2>Program walk-through:</h2>
 
